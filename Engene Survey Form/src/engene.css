@@ -1,0 +1,89 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://phinf.wevpstatic.net/MjAyMzExMDJfMjE4/MDAxNjk4OTI3MzM0NjM1.KDVLyePZnGjYFlcefCgzXagSlJa7FcVR7YsBu1wkB_Eg.upPBfC2UnbCJXChGQtyLqLuaNS1MTmI4N7Sh5DSyXRAg.JPEG/a55a9a2d-a55a-405f-91b4-85b5347e4542.jpeg?type=e1920);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body {
+  background-image: url("https://phinf.wevpstatic.net/MjAyMzExMDJfMjE4/MDAxNjk4OTI3MzM0NjM1.KDVLyePZnGjYFlcefCgzXagSlJa7FcVR7YsBu1wkB_Eg.upPBfC2UnbCJXChGQtyLqLuaNS1MTmI4N7Sh5DSyXRAg.JPEG/a55a9a2d-a55a-405f-91b4-85b5347e4542.jpeg?type=e1920");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-white);
+}
+header{
+  color: white;
+}
+footer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(233, 230, 230);
+  margin-top: 45px;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  font-family: nunito sans;
+
+}
+.description {
+  font-size: 35px;
+  font-family: nunito sans;
+  text-align: center;
+
+  font-weight: 500;
+}
+
+.survey-form {
+  border: 1px solid grey;
+  margin: 70px auto;
+  width: 700px;
+  padding: 60px;
+  font-family: nunito sans;
+  background-color:#000000 ;
+  font-size: 23px;
+  font-weight: 700;
+  opacity: 0.50;
+  color:white;
+
+}
+.form-control {
+  padding: 10px 0px 10px 15px;
+  font-family: nunito sans;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+ 
+}
+.input-textarea {
+  padding: 30px 0px 30px 25px;
+  font-family: nunito sans;
+  font-size: 20px;
+  width: 100%;
+  resize: vertical;
+ 
+}
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 25px 35px 25px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid wheat;
+  color:#1b1b32;
+  background-color:white;
+  font-weight: 700;
+}

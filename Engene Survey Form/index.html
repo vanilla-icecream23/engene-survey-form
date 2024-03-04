@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1 2 Connect</title>
+    <link rel="stylesheet" href="src/engene.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Engene Survey Form</h1>
+      <p class="description">Thanks a lot for sharing your precious time💗</p>
+    </header>
+    <form class="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">Name</label>
+        <br />
+        <input
+          id="name"
+          name="name"
+          type="text"
+          class="form-control"
+          placeholder="Enter Your Name"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email" id="email-label">Email</label>
+        <br />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          class="form-control"
+          placeholder="Enter Your Email"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="number" id="number-label">Age</label>
+        <br />
+        <input
+          id="number"
+          name="age"
+          type="number"
+          class="form-control"
+          placeholder="Age"
+          max="100"
+          min="0"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <p>In which era did you become an Engene?</p>
+
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="border:day-one"
+          />
+          BORDER:DAY ONE
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="border:carnival"
+          />
+          BORDER:CARNIVAL
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="dimension:dilemma"
+          />
+          DIMENSION:DILEMMA
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="dimension:answer"
+          />
+          DIMENSION:ANSWER
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="manifesto:day-1"
+          />
+          MANIFESTO:DAY 1
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="dark-blood"
+          />
+          DARK BLOOD
+        </label>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="era"
+            class="input-radio"
+            value="orange-blood"
+          />
+          ORANGE BLOOD
+        </label>
+      </div>
+
+      <div class="form-group">
+        <p>Who is your bias?</p>
+        <select name="role" id="dropdown" class="form-control required">
+          <option disabled selected value>Bias</option>
+          <option value="yang-jungwon">Yang Jungwon</option>
+          <option value="lee-heeseung">Lee Heeseung</option>
+          <option value="jay">Jay</option>
+          <option value="jake">Jake</option>
+          <option value="park-sunghoon">Park Sunghoon</option>
+          <option value="kim-sunoo">Kim Sunoo</option>
+          <option value="niki">Niki</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>Who is your bias-wrecker?</p>
+        <select name="role" id="dropdown" class="form-control required">
+          <option disabled selected value>Bias-Wrecker</option>
+          <option value="yang-jungwon">Yang Jungwon</option>
+          <option value="lee-heeseung">Lee Heeseung</option>
+          <option value="jay">Jay</option>
+          <option value="jake">Jake</option>
+          <option value="park-sunghoon">Park Sunghoon</option>
+          <option value="kim-sunoo">Kim Sunoo</option>
+          <option value="niki">Niki</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>What do you like most about Enhypen?</p>
+
+        <label>
+          <input
+            name="prefer"
+            value="visuals"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Visuals
+        </label>
+        <br />
+        <label>
+          <input
+            name="prefer"
+            value="vocal"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Vocal
+        </label>
+        <br />
+        <label>
+          <input
+            name="prefer"
+            value="stage-performance"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Stage Performance
+        </label>
+        <br />
+        <label>
+          <input
+            name="prefer"
+            value="song"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Songs
+        </label>
+        <br />
+        <label>
+          <input
+            name="prefer"
+            value="being-active-on-weverse"
+            type="checkbox"
+            class="input-checkbox"
+          />
+          Being Active On Weverse
+        </label>
+      </div>
+
+      <div class="form-group">
+        <p>How did you get to know and stan Enhypen?</p>
+        <textarea
+          name="comment"
+          id="comments"
+          class="input-textarea"
+          placeholder="Enter Your Comment Here"
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
+
+      <footer>Coded by Wut Hmone Kyaw</footer>
+    </form>
+  </body>
+</html>
